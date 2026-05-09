@@ -1,32 +1,31 @@
 # AGENTS.md
 
 ## Project Overview
-This repository contains a retail checkout service prototype.
 
-## Coding Standards
-- Use clear variable names
-- Keep functions small and readable
-- Add tests for new functionality
-- Avoid logging sensitive customer information
+This repository is a prototype of a policy-aware AI code review workflow for a retail checkout service.
 
-## Security Rules
-- Never expose customer email addresses in logs
-- Never hardcode secrets
-- Flag insecure payment flows
+It demonstrates:
+- developer workflow integration
+- PR diff review
+- policy grounding with RAG
+- hybrid retrieval
+- evals
+- observability
+- human-in-the-loop review
 
-## Review Expectations
-When reviewing pull requests:
-- Check for missing tests
-- Check for PII exposure
-- Check for maintainability
-- Check for security concerns
+## Repository Structure
 
-## Commands
-Run server:
+- `app/main.py`: FastAPI retail checkout service
+- `tests/`: pytest test suite
+- `policies/`: company policy documents
+- `review_agent.py`: AI PR review workflow
+- `rag_setup.py`: indexes policy documents into ChromaDB
+- `rag_query.py`: tests semantic retrieval
+- `logs/`: local review logs, not committed
+
+## Important Commands
+
+Run the app:
+
+```bash
 python3 -m uvicorn app.main:app --reload
-
-Run tests:
-pytest
-
-Run linting:
-ruff check .

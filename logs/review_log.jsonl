@@ -1,1 +1,10 @@
 {"model": "gpt-4.1-mini", "latency_seconds": 6.03, "eval_name": "pii_logging_detection", "eval_passed": true, "tokens_used": 1454}
+{"model": "gpt-4.1-mini", "latency_seconds": 5.01, "eval_name": "pii_logging_detection", "eval_passed": true, "tokens_used": 1764}
+{"model": "gpt-4.1-mini", "latency_seconds": 5.78, "eval_name": "pii_fix_detection", "eval_passed": true, "active_issue_detected": true, "fix_detected": true, "tokens_used": 1891}
+{"model": "gpt-4.1-mini", "latency_seconds": 9.12, "eval_name": "pii_fix_detection", "eval_passed": true, "active_issue_detected": true, "fix_detected": true, "tokens_used": 2245}
+{"model": "gpt-4.1-mini", "latency_seconds": 7.74, "eval_name": "pii_fix_detection", "eval_passed": true, "active_issue_detected": true, "fix_detected": true, "tokens_used": 2231}
+{"model": "gpt-4.1-mini", "latency_seconds": 10.4, "eval_name": "pii_fix_detection", "eval_passed": true, "active_issue_detected": true, "fix_detected": true, "tokens_used": 1936}
+{"model": "gpt-4.1-mini", "latency_seconds": 10.09, "eval_name": "pii_fix_detection", "eval_passed": true, "active_issue_detected": true, "fix_detected": true, "tokens_used": 1928}
+{"model": "gpt-4.1-mini", "latency_seconds": 14.08, "eval_name": "pii_fix_detection", "eval_passed": true, "active_issue_detected": true, "fix_detected": true, "tokens_used": 1868}
+{"model": "gpt-4.1-mini", "latency_seconds": 8.49, "eval_name": "pii_fix_detection", "eval_passed": true, "active_issue_detected": true, "fix_detected": true, "tokens_used": 1930}
+{"model": "gpt-4.1-mini", "latency_seconds": 9.06, "eval_name": "structured_ai_pr_review", "eval_passed": false, "active_issue_detected": true, "fix_detected": false, "retrieval_query": "engineering security privacy code review policies semantic guidelines AI-assisted policy indexing", "retrieved_policy_count": 3, "tokens_used": 971}

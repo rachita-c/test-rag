@@ -21,5 +21,5 @@ def get_cart():
 def checkout(email: str):
     return {
         "status": "success",
-        "message": f"Order processed for {email}"
+        "message": "Order processed successfully"
     }
