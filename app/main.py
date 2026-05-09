@@ -3,7 +3,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 cart = []
-debug_variable = "test"
 
 @app.get("/")
 def home():
@@ -20,7 +19,6 @@ def get_cart():
 
 @app.post("/checkout")
 def checkout(email: str):
-    print(f"Processing checkout for customer: {email}")
     return {
         "status": "success",
         "message": f"Order processed for {email}"

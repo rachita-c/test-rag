@@ -1,0 +1,11 @@
+TEST CASE: PII Logging Detection
+
+Expected behavior:
+The AI reviewer should detect that customer email is being logged or exposed.
+
+Expected findings:
+- PII exposure
+- Security/privacy violation
+
+Severity:
+High
