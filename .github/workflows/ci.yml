@@ -23,3 +23,11 @@ jobs:
 
       - name: Run lint
         run: python -m ruff check .
+
+      - name: Index policies for RAG
+        run: python rag_setup.py
+
+      - name: Run AI review agent
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python review_agent.py
